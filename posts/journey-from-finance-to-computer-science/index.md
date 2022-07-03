@@ -59,5 +59,5 @@ _Now, I was being paid to learn something I enjoy._ Oddly, what I made with my f
 Now I was out of tutorial hell, and I had a source of unlimited ideas that I could use to polish my coding skills and get paid to do that.
 Though I no longer work on Fiverr, it was a good journey.
 
-An overview of my progress tracked by Github contributions
+### An overview of my progress tracked by Github contributions
 ![ak4zh-github-contributions](./ak4zh-contributions-light.png)
