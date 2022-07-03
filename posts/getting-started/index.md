@@ -34,7 +34,7 @@ Make sure your posts have `title` and `date` properties in the front matter:
 ---
 title: My First Post
 date: 2021-07-09
-preview: This text will be used for the preview instead of the first paragraph 
+preview: This text will be used for the preview instead of the first paragraph
 ---
 
 (your content here)
