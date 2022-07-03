@@ -32,10 +32,6 @@ export function getProjects({ page = 1, limit } = {}) {
   return projects
 }
 
-// Get all posts and add metadata
-let postList = Object.entries(import.meta.globEager('/posts/**/*.md'))
-let projectList = Object.entries(import.meta.globEager('/projects/**/*.md'))
-
 function addMetadata(data) {
   return data.map(([filepath, post]) => {
     return {
@@ -94,8 +90,10 @@ function addMetadata(data) {
   }))
 }
 
-const posts = addMetadata(postList)
-const projects = addMetadata(projectList)
+// Get all posts and add metadata
+
+const posts = addMetadata(Object.entries(import.meta.globEager('/posts/**/*.md')))
+const projects = addMetadata(Object.entries(import.meta.globEager('/projects/**/*.md')))
 
 function addTimezoneOffset(date) {
   const offsetInMilliseconds = new Date().getTimezoneOffset() * 60 * 1000

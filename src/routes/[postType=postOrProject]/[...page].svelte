@@ -26,7 +26,7 @@
     const posts = await fetch(`/${postType}.json?${fetchPostsParams.toString()}`).then((res) =>
       res.json()
     )
-
+    console.log(posts)
     // if page doesn't exist, direct to page 1
     if (posts.length == 0 && page > 1) {
       return {

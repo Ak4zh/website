@@ -7,7 +7,11 @@
     const postType = params.postType
     // fetch posts from endpoint so that it includes all metadata (see posts.json.js for explanation)
     const posts = await fetch(`/${postType}.json`).then((res) => res.json())
+    console.log(posts)
+
     const post = posts.find((post) => slug === post.slug)
+
+    console.log(post)
 
     if (!post) {
       return {
@@ -58,7 +62,7 @@
     title
   )}**?theme=light&md=1&fontSize=100px&images=https%3A%2F%2Fassets.vercel.com%2Fimage%2Fupload%2Ffront%2Fassets%2Fdesign%2Fhyper-color-logo.svg`
 
-  const url = `${website}/${slug}`
+  const url = `${website}/${postType}/${slug}`
 </script>
 
 <svelte:head>
