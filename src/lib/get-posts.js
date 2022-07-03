@@ -24,9 +24,20 @@ export function getPosts({ page = 1, limit } = {}) {
   return posts
 }
 
+export function getProjects({ page = 1, limit } = {}) {
+  if (limit) {
+    return projects.slice((page - 1) * limit, page * limit)
+  }
+
+  return projects
+}
+
 // Get all posts and add metadata
-const posts = Object.entries(import.meta.globEager('/posts/**/*.md'))
-  .map(([filepath, post]) => {
+let postList = Object.entries(import.meta.globEager('/posts/**/*.md'))
+let projectList = Object.entries(import.meta.globEager('/projects/**/*.md'))
+
+function addMetadata(data) {
+  return data.map(([filepath, post]) => {
     return {
       ...post.metadata,
 
@@ -81,6 +92,10 @@ const posts = Object.entries(import.meta.globEager('/posts/**/*.md'))
     next: allPosts[index - 1],
     previous: allPosts[index + 1]
   }))
+}
+
+let posts = addMetadata(postList)
+let projects = addMetadata(projectList)
 
 function addTimezoneOffset(date) {
   const offsetInMilliseconds = new Date().getTimezoneOffset() * 60 * 1000

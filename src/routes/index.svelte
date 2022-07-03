@@ -4,7 +4,8 @@
   export const load = async ({ fetch }) => {
     return {
       props: {
-        recentPosts: await fetch('/posts.json?limit=2').then((res) => res.json())
+        recentPosts: await fetch('/posts.json?limit=2').then((res) => res.json()),
+        recentProjects: await fetch('/projects.json?limit=2').then((res) => res.json())
       }
     }
   }
@@ -16,6 +17,7 @@
   import { name } from '$lib/info.js'
 
   export let recentPosts
+  export let recentProjects
 </script>
 
 <svelte:head>
@@ -49,7 +51,7 @@
 
   <div class="flex items-center justify-center w-full h-96 lg:w-1/3">
     <img
-      class="object-cover w-full skew-y-3 h-full mx-auto rounded-full lg:max-w-2xl top-0 bg-gray-200"
+      class="object-cover w-full skew-y-3 h-full mx-auto rounded-full lg:max-w-2xl top-0 dark:bg-slate-800 bg-gray-100"
       src="./ak4zh.png"
       alt="ak4zh"
     />
@@ -82,9 +84,24 @@
   </h2>
   <div class="grid gap-4 grid-cols-1 sm:grid-cols-2">
     {#each recentPosts as post}
+      {@const postType = 'posts'}
       <div class="flex p-4 border border-slate-300 dark:border-slate-700 rounded-lg">
-        <PostPreview {post} small />
+        <PostPreview {post} {postType} small />
       </div>
     {/each}
   </div>
+
+    <!-- projects -->
+    <h2 class="flex items-baseline gap-4 !mb-2">
+      Projects
+      <ButtonLink href="/projects" size="small" raised={false} class="opacity-60">View All</ButtonLink>
+    </h2>
+    <div class="grid gap-4 grid-cols-1 sm:grid-cols-2">
+      {#each recentProjects as post}
+      {@const postType = 'projects'}
+        <div class="flex p-4 border border-slate-300 dark:border-slate-700 rounded-lg">
+          <PostPreview {post} {postType} small />
+        </div>
+      {/each}
+    </div>
 </div>
