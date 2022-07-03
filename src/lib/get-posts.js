@@ -94,8 +94,8 @@ function addMetadata(data) {
   }))
 }
 
-let posts = addMetadata(postList)
-let projects = addMetadata(projectList)
+const posts = addMetadata(postList)
+const projects = addMetadata(projectList)
 
 function addTimezoneOffset(date) {
   const offsetInMilliseconds = new Date().getTimezoneOffset() * 60 * 1000

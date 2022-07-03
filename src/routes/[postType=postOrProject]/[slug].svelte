@@ -126,7 +126,7 @@
   <div class="grid gap-8 grid-cols-1 sm:grid-cols-2">
     {#if previous}
       <div class="flex flex-col">
-        <h6 class="not-prose post-preview-label">Previous Post</h6>
+        <h6 class="not-prose post-preview-label">Previous {toTitleCase(postType.slice(0, -1))}</h6>
         <div class="flex-1 post-preview">
           <PostPreview post={previous} {postType} small />
         </div>
@@ -136,7 +136,7 @@
     {/if}
     {#if next}
       <div class="flex flex-col">
-        <h6 class="not-prose post-preview-label flex justify-end">Next Post</h6>
+        <h6 class="not-prose post-preview-label flex justify-end">Next {toTitleCase(postType.slice(0, -1))}</h6>
         <div class="flex-1 post-preview">
           <PostPreview post={next} {postType} small />
         </div>
