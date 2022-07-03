@@ -3,14 +3,25 @@ title: ConfluxBot
 date: 2022-01-02
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Et molestie ac feugiat sed lectus. Nisi est sit amet facilisis magna etiam tempor orci. Dolor sed viverra ipsum nunc aliquet.
+A flux to automate all your social media account.
+Conflux as a noun means a merger of rivers, or the place where rivers merge.
+The word Conflux comes from late Latin `confluxus`, where con means ‘together’ + fluxus means 'the action or process of flowing or flowing out'
 
-Et egestas quis ipsum suspendisse. Aliquam ut porttitor leo a diam sollicitudin tempor id eu. Lorem donec massa sapien faucibus. Faucibus nisl tincidunt eget nullam non nisi est. Odio facilisis mauris sit amet massa. Neque viverra justo nec ultrices dui sapien. Urna cursus eget nunc scelerisque. Adipiscing vitae proin sagittis nisl rhoncus.
+## Why the name Conflux?
+The name Conflux is the best I could have thought of to best explain what my bot actually does. ConfluxBot merges all your social media accounts at one place and let them flow together.
 
-Elementum eu facilisis sed odio morbi. Et ultrices neque ornare aenean euismod elementum nisi quis eleifend. Tellus at urna condimentum mattis pellentesque id nibh. Pharetra sit amet aliquam id diam maecenas ultricies mi. Eu non diam phasellus vestibulum lorem sed risus ultricies. Quisque non tellus orci ac auctor augue mauris. Et pharetra pharetra massa massa. Mauris augue neque gravida in fermentum et sollicitudin. Ut enim blandit volutpat maecenas. Sed blandit libero volutpat sed cras ornare arcu dui vivamus. Libero enim sed faucibus turpis in eu mi. In nulla posuere sollicitudin aliquam ultrices. Pharetra et ultrices neque ornare aenean euismod elementum nisi quis. Mi quis hendrerit dolor magna eget. Suscipit adipiscing bibendum est ultricies integer quis auctor elit.
+## So what does the bot actually do?
+In the ConfluxBot dashboard you can connect many of your social media accounts like Telegram, Discord, Reddit, Personal Blogs etc.
+Then you can create connections between these accounts to make fully synced and completely automated posts across each connected platform.
+The bot also offers many configuration options which you can use the manipulate the content on the go as you desire.
 
-Dictum fusce ut placerat orci nulla pellentesque dignissim enim. Id nibh tortor id aliquet lectus. Vulputate odio ut enim blandit volutpat maecenas volutpat blandit. At volutpat diam ut venenatis tellus in metus. Dictum sit amet justo donec enim diam vulputate. Malesuada fames ac turpis egestas. Ullamcorper sit amet risus nullam eget. In tellus integer feugiat scelerisque varius morbi. Duis tristique sollicitudin nibh sit amet commodo. Tristique sollicitudin nibh sit amet commodo nulla. Dolor sed viverra ipsum nunc aliquet. Tellus orci ac auctor augue mauris augue neque gravida in. Sagittis id consectetur purus ut faucibus pulvinar. Porta lorem mollis aliquam ut.
+## Who is it for?
+ConfluxBot gives you full freedom to how you want to use it, hence it can be useful for a variety of people, to list a few:
+- Crypto/stock traders: to share trading tips accross multiple platforms
+- Affiliate Marketers: to advertise on multiple social media platforms with minimal effort
+- Literaly any business that shares content online on multiple social platforms
 
-Faucibus ornare suspendisse sed nisi lacus sed viverra tellus in. Et ultrices neque ornare aenean euismod elementum nisi quis eleifend. Ullamcorper a lacus vestibulum sed arcu. Dictum varius duis at consectetur lorem donec massa sapien faucibus. Nunc mattis enim ut tellus elementum sagittis vitae. Lobortis mattis aliquam faucibus purus in massa. Mattis ullamcorper velit sed ullamcorper morbi tincidunt. Gravida neque convallis a cras semper auctor. Dignissim convallis aenean et tortor at risus viverra adipiscing at. Sit amet commodo nulla facilisi. Sem integer vitae justo eget magna fermentum iaculis eu non. Sed turpis tincidunt id aliquet risus feugiat in ante metus.
 
-Vestibulum rhoncus est pellentesque elit ullamcorper dignissim cras tincidunt. Et egestas quis ipsum suspendisse ultrices gravida dictum fusce. Viverra adipiscing at in tellus integer. Accumsan in nisl nisi scelerisque eu ultrices vitae auctor eu. Id interdum velit laoreet id donec. Pellentesque massa placerat duis ultricies lacus. Magna sit amet purus gravida quis. Vulputate eu scelerisque felis imperdiet proin. In ante metus dictum at tempor commodo ullamcorper a lacus. Nunc id cursus metus aliquam eleifend. Leo duis ut diam quam nulla porttitor massa. Dui id ornare arcu odio ut sem nulla. Et ultrices neque ornare aenean euismod elementum nisi. Ut eu sem integer vitae. Sollicitudin nibh sit amet commodo nulla facilisi nullam. Arcu non odio euismod lacinia at quis. A pellentesque sit amet porttitor eget dolor morbi non arcu.
+## Other Links:
+- [ConfluxBot: How to use Text Manipulation feature?](https://medium.com/@ak4zh/confluxbot-how-to-use-text-manipulation-feature-63b24fb9a93e)
+- [ConfluxBot Website](https://confluxbot.com)
